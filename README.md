@@ -10,6 +10,7 @@ Features
 3. Analyze spending patterns, such as the highest spending category or monthly totals.
 4. Generate a weekly or monthly summary report using automated tasks.
 5. Requirements
+
 ● Endpoints:
 ○ Add Expense (POST /expenses): Log a new expense.
 ○ Get Expenses (GET /expenses): Retrieve expenses based on filters like category
