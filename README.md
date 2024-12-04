@@ -18,11 +18,16 @@ or date range.
 category or time.
 ○ Generate Summary (CRON job): Automated reports for daily / weekly / monthly
 expense summaries.
+
 ● Data Validation (Optional) :
 ○ Expense categories (e.g., "Food", "Travel") must be predefined.
 ○ Amount must be a positive number.
+
 ● Response Format: JSON structured as { status, data, error }.
 Solution Design
+
 ● Use arrays for in-memory storage.
+
 ● Implement sorting and filtering logic to retrieve and group expenses.
+
 ● Leverage node-cron for generating summary reports
